@@ -9,6 +9,7 @@ import scrapy
 
 
 class G1CrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    time = scrapy.Field()
+    description = scrapy.Field()
+    link = scrapy.Field()
